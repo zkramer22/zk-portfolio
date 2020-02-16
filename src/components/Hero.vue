@@ -104,7 +104,9 @@ export default {
      publicPath: process.env.BASE_URL + 'zachkramer-resume.pdf'
   }),
   mounted() {
-    this.typingSequence(this.messages, 0)
+    setTimeout(() => {
+      this.typingSequence(this.messages, 0)
+    }, 2000)
   }
 }
 </script>

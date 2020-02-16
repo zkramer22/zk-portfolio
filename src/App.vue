@@ -108,7 +108,9 @@ export default {
     scrolled: false
   }),
   mounted() {
-    this.loaded = true
+    setTimeout(() => {
+      this.loaded = true
+    }, 2000)
   }
 }
 </script>
