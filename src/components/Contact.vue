@@ -1,8 +1,9 @@
 <template lang="html">
   <section id="contact">
     <h2>~ contact ~</h2>
-    <p>let's talk tech and see how we can bring your project to life!</p>
-    <p>feel free to call / text, email, or message me on LinkedIn.</p>
+    <div class="container">
+      <p>let's talk tech and discuss how we can bring your project to life!</p>
+    </div>
     <br>
     <!-- <form class="" action="index.html" method="post">
 
